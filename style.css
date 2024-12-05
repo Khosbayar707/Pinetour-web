@@ -1,0 +1,321 @@
+* {
+  font-family: Montserrat;
+  margin: 0;
+}
+
+.circle {
+  width: 56px;
+  height: 56px;
+  background-color: black;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(22, 169, 74);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-break: 20.72px;
+  transition: 150ms ease;
+  cursor: pointer;
+}
+
+.circle:hover {
+  background-color: white;
+  scale: 1.2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 7);
+}
+
+.p-sample {
+  height: 370px;
+  width: 285px;
+  border: 3px solid rgb(251, 251, 251);
+  background-color: rgb(251, 251, 251);
+  border-radius: 24px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.p-sample:hover {
+  border: 3px solid green;
+  scale: 1;
+  transition: all 1s ease;
+  box-shadow: 0 0 10px rgb(24, 186, 81);
+}
+
+.starting_black {
+  background-color: black;
+  text-align: center;
+  padding: 25px;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  z-index: 10;
+}
+
+.Khuvsgul-style {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  color: rgb(48, 48, 48);
+}
+
+.trip-style {
+  text-align: center;
+  color: rgb(171, 171, 171);
+  font-size: 13px;
+  margin-bottom: 80px;
+}
+
+.mid-location {
+  margin-bottom: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19.5px;
+  font-family: Montserrat;
+}
+
+.mid-location:hover {
+  font-weight: bold;
+  font-size: large;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+.lower-location {
+  color: gray;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+
+.space-between-points {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 0;
+}
+
+.black-pic-style {
+  height: 845px;
+  width: 692px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-top: 60px;
+}
+
+.dashed-line {
+  border-style: dashed;
+  color: black;
+  border-left: 3px;
+  height: 40px;
+  width: 0;
+  margin-left: 25px;
+}
+
+.gray-text {
+  margin-top: 10px;
+  font-size: 20px;
+  color: gray;
+  font-family: Arial;
+  line-height: 24.38px;
+  font-family: Montserrat;
+}
+
+.gray-text:hover {
+  font-weight: bold;
+  color: black;
+  font-family: Montserrat;
+  font-size: larger;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.button {
+  background-color: rgb(24, 186, 81);
+  height: 44px;
+  width: 130px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 20px;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: rgb(35, 134, 35);
+}
+
+.social-button {
+  background-color: rgba(48, 48, 48, 1);
+  width: 167px;
+  height: 44px;
+  box-sizing: border-box;
+  color: white;
+  border-radius: 5px;
+  align-content: center;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.social-button:hover {
+  background-color: black;
+}
+
+.PRICING-style {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgb(171, 171, 171);
+  font-size: 15px;
+  font-family: Montserrat;
+  margin-top: 240px;
+}
+
+.PRICING-OF-STYLE {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 35px;
+  font-family: Montserrat;
+  margin-top: 2px;
+}
+
+.tours-day-style {
+  font-size: 24px;
+  font-family: Montserrat;
+  color: rgb(171, 171, 171);
+  line-height: 29.26px;
+}
+
+.Destination-of-Our-Agency {
+  font-size: 48px;
+  font-family: Montserrat;
+  line-height: 58.51px;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.durwun-zurgiin-niit {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.starter-pack-style {
+  margin-top: 20px;
+  margin-right: 20px;
+  font-family: Montserrat;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.har-footer {
+  background-color: rgb(23, 23, 23);
+  height: 393px;
+  top: 2977px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 240px;
+  box-sizing: border-box;
+  padding-top: 125px;
+  padding-bottom: 150px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.starter-pack-ul-style {
+  min-height: 180px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.dollar-sign {
+  text-align: right;
+  font-size: 35px;
+  margin-left: 30px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.image {
+  width: 284px;
+  height: 400px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  transition: all 1s ease;
+}
+.animation-zoom:hover {
+  background-size: 120%;
+}
+
+.pic1 {
+  background-image: url(Sukhbaatar.png);
+}
+.pic2 {
+  background-image: url(Khiid.png);
+}
+.pic3 {
+  background-image: url(Nuur.png);
+}
+.pic4 {
+  background-image: url(nuur4.png);
+}
+.pic5 {
+  background-image: url(togoo.png);
+}
+.pic6 {
+  background-image: url(terkh.png);
+}
+
+.pic-position-style {
+  border-radius: 20px;
+  margin-top: 60px;
+  top: 0;
+  right: 20px;
+  display: none;
+  position: absolute;
+}
+
+.space-between-points:hover .pic-position-style {
+  display: block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 845px;
+  width: 692px;
+}
+
+.D-one-style {
+  gap: 30px;
+  margin-top: 50x;
+  display: flex;
+}
+
+.D-one-style:hover .pic-position-style {
+  display: block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 845px;
+  width: 692px;
+}
